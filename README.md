@@ -3,6 +3,19 @@
 
 Bot telegram converter texto para áudio 
 
+# ###Dependência###
+```
+pip install gTTS
+
+pip install playsound 
+```
+
+Emxeplo 
+
+```
+/áudio ola tudo bem ADM ? 
+```
+
 ```
 @bot.message_handler(commands=['audio' , 'áudio' , 'AUDIO' , 'ÁUDIO'])
 def audio_0(mensagem):
